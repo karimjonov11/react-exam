@@ -1,0 +1,61 @@
+.Sec6 .icons3{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 145px;
+}
+.Cardlist{
+    flex-wrap: wrap;
+}
+.lastsec{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 145px;
+}
+.playstation{
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    width: 570px;
+    height: 600px;    
+    border-radius: 4px;
+}
+.playstation img{
+    position: absolute;
+    margin-left: -90px;
+    margin-top: 32px;
+}
+.playstation h2{
+    padding:446px 0 16px 32px;
+    z-index: 2;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-style: Semi Bold;
+    font-size: 24px;
+    line-height: 24px;
+    letter-spacing: 3%;
+}
+.playstation p{
+    font-family: sans-serif;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0%;
+    z-index: 2;
+    padding-left: 32px;
+    padding-bottom: 16px;
+}
+.playstation h4{
+    font-family: Poppins;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 16px;
+    line-height: 24px;
+    width:70px;
+    letter-spacing: 0%;
+    margin-left: 32px;
+    border-bottom: 1px solid white;
+    z-index: 2;
+
+}

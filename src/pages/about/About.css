@@ -1,0 +1,178 @@
+.girls{
+    display: flex;
+    padding: 135px 0 0 135px;
+    gap: 75px;
+}
+.girlstext{
+    align-content: center;
+}
+.girlstext h1{
+    font-family: sans-serif;
+    font-weight: 600;
+    font-style: Semi Bold;
+    font-size: 54px;
+    line-height: 64px;
+    letter-spacing: 6%;
+    text-align: justify;
+    padding-bottom: 40px;
+}
+.girlstext p{
+    font-family: Poppins;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0%;
+    padding-bottom: 24px;
+}
+.servise9{
+    padding-top: 50px;
+    width: 270px;
+    height: 230px;
+    border-radius: 4px;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+.servise9 h3{
+    font-family: sans-serif;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 32px;
+    line-height: 30px;
+    letter-spacing: 4%;
+}
+.servise9 p{
+    font-family: sans-serif;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.servise9:hover{
+    background: #DB4444;
+    color: white;
+}
+.workers{
+    display: flex;
+    padding: 135px 0 295px 0;
+    gap: 75px;
+    justify-content: center;
+}
+.workers .worker1{
+    width: 270px;
+    height: 230px;
+    border-radius: 4px;
+}
+.worker1 img{
+    width: 276px;
+    height: 372px;
+    background-color: #F5F5F5;
+    padding: 40px 40px 0 40px;
+}
+.worker1 h1{
+    font-family: sans-serif;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 32px;
+    line-height: 30px;
+    letter-spacing: 4%;
+    color: #000000;
+    padding-top: 20px;
+}
+.worker1 p{
+    font-family: Poppins;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    color: #000000;
+    padding-top: 5px;
+}
+@media (max-width: 1024px) {
+    .girls {
+        padding: 80px 40px;
+        gap: 30px;
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .girlsimg img {
+        width: 100%;
+        max-width: 600px;
+    }
+
+    .girlstext h1 {
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .workers {
+        gap: 20px;
+        padding: 80px 20px;
+    }
+
+    .worker1 img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-width: 768px) {
+    .Sec8 {
+        flex-wrap: wrap; 
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .servise9 {
+        width: 45%; 
+    }
+
+    .workers {
+        flex-direction: column;
+        align-items: center;
+        padding: 50px 0;
+        gap: 150px; 
+    }
+
+    .worker1 {
+        width: 80%;
+    }
+}
+
+@media (max-width: 480px) {
+    .girls {
+        padding: 40px 15px;
+    }
+
+    .girlstext h1 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .servise9 {
+        width: 100%;
+    }
+
+    .worker1 {
+        width: 100%;
+        padding: 0 10px;
+    }
+
+    .worker1 img {
+        padding: 20px 20px 0 20px;
+    }
+
+    .worker1 h1 {
+        font-size: 24px;
+    }
+
+    .Sec8:last-child {
+        flex-direction: column;
+        align-items: center;
+    }
+}

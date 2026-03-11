@@ -1,0 +1,9 @@
+.Sec4 .icons3{
+    padding:0 145px;
+    display: flex;
+    padding-bottom: 60px;
+    justify-content: space-between;
+}
+.icons3 .button9{
+    margin-top: -20px;
+}

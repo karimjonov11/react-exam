@@ -1,0 +1,335 @@
+section{
+    padding-left: 30px;
+    padding-bottom: 60px;
+}
+.see{
+    text-decoration: none;
+    color: black;
+    margin-left: 5px;
+}
+.addwish{
+    width: 10px;
+    height: 10px;
+    background-color: red;
+    position: absolute;
+}
+
+.time{
+    display: flex;
+    align-items: center;
+    padding: 25px 0 24px 145px;
+    gap: 10px;
+}
+.time .box{
+    width: 20px;
+    height: 40px;
+    border-radius: 4px;
+    background-color: #DB4444;
+}
+.time p{
+    font-family: Poppins;
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0%;
+    color: #DB4444;
+}
+.timer{
+    padding: 0 80px 40px 135px;
+    display: flex;
+    align-items: center;
+    gap: 80px;
+}
+.Cardlist{
+    display: flex;
+    gap: 35px;
+    padding-left: 135px;
+}
+.Card{
+    width: 270px;
+    height: 350px;
+    align-items: center;
+    align-content: center;
+
+}
+.Card .mapimg1{
+    width: 180px;
+    height: 170px;
+    margin: -45px 45px 0 45px;
+}
+.Card:hover .mapimg1{
+    width: 180px;
+    height: 170px;
+    margin: -35px 45px 0 45px;
+    opacity: 0.9;
+    transform: scale(1.05);
+}
+
+.Card h3{
+    font-family: Poppins;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    color: #000000;
+}
+.Card h4{
+    font-family: Poppins;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    color: #DB4444;
+    padding-top: 5px;
+}
+.Card h5{
+    font-family: Poppins;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-decoration: line-through;
+    color: #000000;
+    padding-top: 5px;
+    color: #505050;
+}
+.mapcon1{
+    display: flex;
+    gap: 160px;
+    padding: 10px;
+}
+.mapcon1 p{
+    font-family: Poppins;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0%;
+    color: #FAFAFA;
+    width: 55px;
+    height: 26px;
+    opacity: 1;
+    top: 12px;
+    left: 12px;
+    gap: 10px;
+    border-radius: 4px;
+    padding-top: 4px;
+    padding-right: 12px;
+    padding-bottom: 4px;
+    padding-left: 12px;
+    background-color: #DB4444;
+}
+.mapicons{
+    display: flex;
+    flex-direction: column;
+    row-gap: 6px;
+}
+.mapicons span{
+    width: 34px;
+    height: 34px;
+    border-radius: 50px;
+    padding:5px;
+}
+.mapicons span:hover{
+    background-color: #DB4444;
+    cursor: pointer;
+}
+.mapmodels{
+    display: flex;
+    gap: 12px;
+}
+
+
+.mapimg2{
+    width: 18px;
+    height: 18px;
+}
+.mapimgcon{
+    display: flex;
+    align-items: center;
+    padding-top: 5px;
+}
+.mapimgcon span{
+    font-family: Poppins;
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0%;
+    color: #505050;
+}
+.addtocart{
+    width: 270px;
+    height: 260px;
+    border-radius: 4px;
+    background-color: #F5F5F5;
+    margin-top: -27px;
+
+}
+.Card h2{
+    display: none;
+}
+.Card:hover h2{
+    display: block;
+    font-family: Poppins;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+    text-align: center;
+    width: 270px;
+    height: 41px; 
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+    background-color: black;
+    align-items: center;
+    align-content: center;
+    position: absolute;
+    margin-top: -40px;
+    cursor: pointer;
+}
+.countdown {
+  display: flex;
+  gap: 20px;
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: #000000;
+  padding: 15px;
+  border-radius: 8px;
+  justify-content: center;
+}
+
+.countdown div {
+  text-align: center;
+  display: block;
+}
+.countdown p{
+    font-family: sans-serif;
+    font-weight: 600;
+    font-style: Medium;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0%;
+    padding-bottom: 5px;
+}
+
+.countdown span{
+    font-family: sans-serif;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 32px;
+    line-height: 30px;
+    letter-spacing: 4%;
+
+}
+section button{
+    width: 234px;
+    height: 56px;
+    opacity: 1;
+    top: 1219px;
+    left: 603px;
+    gap: 10px;
+    border-radius: 4px;
+    padding-top: 16px;
+    padding-right: 48px;
+    padding-bottom: 16px;
+    padding-left: 48px;
+    background-color: #DB4444;
+    font-family: sans-serif;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    border: none;
+    margin-left: 600px;
+    margin-top: 50px;
+    color: #FFFFFF;
+}
+section hr{
+    margin-top: 60px;
+}
+
+@media (max-width: 1024px) {
+    .time {
+        padding: 60px 0 20px 50px;
+    }
+    .timer {
+        padding: 0 50px 30px 50px;
+        gap: 40px;
+    }
+    .Cardlist {
+        padding-left: 50px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    section button {
+        margin-left: auto;
+        margin-right: auto;
+        display: block; 
+    }
+}
+
+@media (max-width: 768px) {
+    .timer {
+        flex-direction: column; 
+        align-items: flex-start;
+        padding-left: 50px;
+        gap: 20px;
+    }
+    .timer h1 {
+        font-size: 28px;
+    }
+    .countdown span {
+        font-size: 24px;
+    }
+    .Cardlist {
+        padding-left: 0;
+        justify-content: center;
+        gap: 20px;
+    }
+    .time {
+        padding-left: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .time {
+        padding: 40px 0 15px 20px;
+    }
+    .timer {
+        padding-left: 20px;
+    }
+    .timer h1 {
+        font-size: 24px;
+    }
+    .countdown {
+        gap: 10px;
+        padding: 5px;
+    }
+    .countdown span {
+        font-size: 20px;
+    }
+    .countdown p {
+        font-size: 11px;
+    }
+    .Card {
+        width: 100%; 
+        max-width: 300px;
+    }
+    .Card .mapimg1 {
+        width: 160px;
+        height: 150px;
+    }
+    section button {
+        width: 90%;
+        margin-top: 30px;
+    }
+}

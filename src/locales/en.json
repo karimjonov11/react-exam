@@ -1,0 +1,208 @@
+{
+  "top_bar": "Summer Sale For All Swim Suits And Free Express Delivery - OFF 50%!",
+  "shop_now": "Shop now",
+  "nav_home": "Home",
+  "nav_contact": "Contact",
+  "nav_about": "About",
+  "nav_signup": "Sign Up",
+  "search_placeholder": "What are you looking for?",
+  "footer": {
+    "subscribe": "Subscribe",
+    "get_off": "Get 10% off your first order",
+    "email_placeholder": "Enter your email",
+    "support": "Support",
+    "account": "Account",
+    "my_account": "My Account",
+    "login_register": "Login / Register",
+    "cart": "Cart",
+    "wishlist": "Wishlist",
+    "shop": "Shop",
+    "quick_link": "Quick Link",
+    "privacy_policy": "Privacy Policy",
+    "terms_of_use": "Terms Of Use",
+    "faq": "FAQ",
+    "contact": "Contact",
+    "download_app": "Download App",
+    "save_app_user": "Save $3 with App New User Only",
+    "copyright": "Rimel 2022. All right reserved"
+},
+  "about": {
+    "story_title": "Our Story",
+    "story_desc1": "Launched in 2015, Exclusive is South Asia’s premier online shopping marketplace with an active presence in Bangladesh. Supported by a wide range of tailored marketing, data and service solutions, Exclusive has 10,500 sellers and 300 brands and serves 3 million customers across the region.",
+    "story_desc2": "Exclusive has more than 1 Million products to offer, growing at a very fast pace. Exclusive offers a diverse assortment in categories ranging from consumer goods.",
+    "stats": {
+      "sellers": "Sellers active on our site",
+      "monthly_sale": "Monthly Product Sale",
+      "customer_active": "Active customers on our site",
+      "annual_sale": "Annual gross sale in our site"
+    },
+    "jobs": {
+      "founder": "Founder & Chairman",
+      "managing_director": "Managing Director",
+      "product_designer": "Product Designer"
+    },
+    "services": {
+      "delivery_title": "FREE AND FAST DELIVERY",
+      "delivery_desc": "Free delivery for all orders over $140",
+      "service_title": "24/7 CUSTOMER SERVICE",
+      "service_desc": "Friendly 24/7 customer support",
+      "money_title": "MONEY BACK GUARANTEE",
+      "money_desc": "We return money within 30 days"
+}
+  },
+  "sec1": {
+    "categories": {
+      "women": "Woman’s Fashion",
+      "men": "Men’s Fashion",
+      "electronics": "Electronics",
+      "home": "Home & Lifestyle",
+      "medicine": "Medicine",
+      "sports": "Sports & Outdoor",
+      "baby": "Baby’s & Toys",
+      "groceries": "Groceries & Pets",
+      "health": "Health & Beauty"
+    },
+    "hero": {
+      "series": "iPhone 14 Series",
+      "offer": "Up to 10% off Voucher",
+      "shop": "Shop Now"
+    }
+  },
+  "sec2": {
+    "today": "Today’s",
+    "title": "Flash Sales",
+    "timer": {
+      "days": "Days",
+      "hours": "Hours",
+      "minutes": "Minutes",
+      "seconds": "Seconds"
+    },
+    "add_cart": "Add To Cart",
+    "view_all": "View All Products"
+  },
+  "sec3": {
+  "subtitle": "Today’s",
+  "title": "Browse By Category",
+  "categories": {
+    "phones": "Phones",
+    "computers": "Computers",
+    "smartwatch": "SmartWatch",
+    "camera": "Camera",
+    "headphones": "Headphones",
+    "gaming": "Gaming"
+  }
+},
+"sec4": {
+  "subtitle": "This Month",
+  "title": "Best Selling Products",
+  "view_all": "View All",
+  "add_cart": "Add To Cart"
+},
+"sec5": {
+  "category": "Categories",
+  "title": "Enhance Your Music Experience",
+  "buy_now": "Buy Now!",
+  "timer": {
+    "days": "days",
+    "hours": "hours",
+    "minutes": "minutes",
+    "seconds": "seconds"
+  }
+},
+"sec6": {
+  "subtitle": "Our Products",
+  "title": "Explore Our Products",
+  "add_cart": "Add To Cart"
+},
+"sec7": {
+  "featured": "Featured",
+  "new_arrival": "New Arrival",
+  "ps5_title": "Playstation 5",
+  "ps5_desc": "Black and White version of the PS5 coming out on sale.",
+  "shop_now": "Shop Now",
+  "delivery_title": "FREE AND FAST DELIVERY",
+  "delivery_desc": "Free delivery for all orders over $140",
+  "support_title": "24/7 CUSTOMER SERVICE",
+  "support_desc": "Friendly 24/7 customer support",
+  "guarantee_title": "MONEY BACK GUARANTEE",
+  "guarantee_desc": "We return money within 30 days"
+},
+"notfound": {
+  "title": "404 Not Found",
+  "message": "Your visited page not found. You may go home page.",
+  "back_home": "Back to home page"
+},
+"signup": {
+  "title": "Create an account",
+  "subtitle": "Enter your details below",
+  "name": "Name",
+  "email_phone": "Email or Phone Number",
+  "password": "Password",
+  "create_btn": "Create Account",
+  "google_btn": "Sign in with Google",
+  "already": "Already have account?",
+  "login": "Log in"
+},
+  "contact": {
+    "call_title": "Call To Us",
+    "call_desc": "We are available 24/7, 7 days a week.",
+    "phone_num": "Phone",
+    "write_title": "Write To Us",
+    "write_desc": "Fill out our form and we will contact you within 24 hours.",
+    "input_name": "Your Name*",
+    "input_email": "Your Email*",
+    "input_phone": "Your Phone*",
+    "input_message": "Your Message*",
+    "send_btn": "Send Message",
+    "success_msg": "Data submitted successfully ✅"
+  },
+  "profile": {
+  "manage_account": "Manage My Account",
+  "my_profile": "My Profile",
+  "address_book": "Address Book",
+  "payment_options": "My Payment Options",
+  "my_orders": "My Orders",
+  "my_returns": "My Returns",
+  "my_cancellations": "My Cancellations",
+  "my_wishlist": "My WishList",
+  "edit_title": "Edit Your Profile",
+  "first_name": "First Name",
+  "last_name": "Last Name",
+  "email": "Email",
+  "address": "Address",
+  "pass_changes": "Password Changes",
+  "curr_pass": "Current Password",
+  "new_pass": "New Password",
+  "conf_pass": "Confirm New Password",
+  "cancel": "Cancel",
+  "save": "Save Changes"
+},
+"cart": {
+  "empty": "Your cart is empty",
+  "product": "Product",
+  "price": "Price",
+  "quantity": "Quantity",
+  "subtotal": "Subtotal",
+  "return_shop": "Return To Shop",
+  "update_cart": "Update Cart",
+  "coupon_placeholder": "Coupon Code",
+  "apply_coupon": "Apply Coupon",
+  "cart_total": "Cart Total",
+  "shipping": "Shipping",
+  "free": "Free",
+  "total": "Total",
+  "checkout_btn": "Proceed to checkout"
+},
+  "product": {
+    "reviews": "Reviews",
+    "in_stock": "In Stock",
+    "colours": "Colours:",
+    "size": "Size:",
+    "buy_now": "Buy Now",
+    "free_delivery": "Free Delivery",
+    "delivery_sub": "Enter your postal code for Delivery Availability",
+    "return_delivery": "Return Delivery",
+    "return_sub": "Free 30 Days Delivery Returns. Details",
+    "not_found": "Product not found!"
+  }
+}

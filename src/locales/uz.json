@@ -1,0 +1,208 @@
+{
+  "top_bar": "Barcha suzish kiyimlari uchun yozgi chegirma va bepul yetkazib berish - 50% CHEGIRMA!",
+  "shop_now": "Hozir xarid qiling",
+  "nav_home": "Bosh sahifa",
+  "nav_contact": "Aloqa",
+  "nav_about": "Biz haqimizda",
+  "nav_signup": "Ro'yxatdan o'tish",
+  "search_placeholder": "Nima qidiryapsiz?",
+  "footer": {
+    "subscribe": "Obuna bo'ling",
+    "get_off": "Birinchi buyurtmangiz uchun 10% chegirma oling",
+    "email_placeholder": "Emailingizni kiriting",
+    "support": "Yordam",
+    "account": "Hisob",
+    "my_account": "Mening hisobim",
+    "login_register": "Kirish / Ro'yxatdan o'tish",
+    "cart": "Savatcha",
+    "wishlist": "Istaklar ro'yxati",
+    "shop": "Do'kon",
+    "quick_link": "Tezkor havolalar",
+    "privacy_policy": "Maxfiylik siyosati",
+    "terms_of_use": "Foydalanish shartlari",
+    "faq": "Ko'p beriladigan savollar",
+    "contact": "Aloqa",
+    "download_app": "Ilovani yuklab oling",
+    "save_app_user": "Faqat yangi foydalanuvchilar uchun $3 chegirma",
+    "copyright": "Rimel 2022. Barcha huquqlar himoyalangan"
+  },
+  "about": {
+    "story_title": "Bizning tariximiz",
+    "story_desc1": "2015-yilda ishga tushirilgan Exclusive — Janubiy Osiyodagi yetakchi onlayn savdo maydonchasi bo'lib, Bangladeshda faol ish olib boradi. Keng ko'lamli marketing, ma'lumotlar va xizmat ko'rsatish yechimlari bilan qo'llab-quvvatlanadigan Exclusive 10,500 sotuvchi va 300 brendga ega va mintaqa bo'ylab 3 million mijozga xizmat ko'rsatadi.",
+    "story_desc2": "Exclusive 1 milliondan ortiq mahsulotni taklif etadi va juda tez o'sib bormoqda. Exclusive iste'molchilardan tortib turli toifadagi mahsulotlarning keng assortimentini taklif etadi.",
+    "stats": {
+      "sellers": "Saytimizdagi faol sotuvchilar",
+      "monthly_sale": "Oylik mahsulot savdosi",
+      "customer_active": "Saytimizdagi faol mijozlar",
+      "annual_sale": "Yillik yalpi savdo"
+    },
+    "jobs": {
+      "founder": "Asoschi va rais",
+      "managing_director": "Boshqaruvchi direktor",
+      "product_designer": "Mahsulot dizayneri"
+    },
+    "services": {
+      "delivery_title": "BEPUL VA TEZKOR YETKAZIB BERISH",
+      "delivery_desc": "$140 dan yuqori barcha buyurtmalar uchun bepul yetkazib berish",
+      "service_title": "24/7 MIJOZLARGA XIZMAT KO'RSATISH",
+      "service_desc": "Mijozlarni do'stona qo'llab-quvvatlash 24/7",
+      "money_title": "PULNI QAYTARIB BERISH KAFOLATI",
+      "money_desc": "Biz pulni 30 kun ichida qaytaramiz"
+    }
+},
+"sec1": {
+    "categories": {
+      "women": "Ayollar modasi",
+      "men": "Erkaklar modasi",
+      "electronics": "Elektronika",
+      "home": "Uy va turmush tarzi",
+      "medicine": "Tibbiyot",
+      "sports": "Sport va ochiq havoda",
+      "baby": "Bolalar va o'yinchoqlar",
+      "groceries": "Oziq-ovqat va uy hayvonlari",
+      "health": "Salomatlik va go'zallik"
+    },
+    "hero": {
+      "series": "iPhone 14 seriyasi",
+      "offer": "Voucher bilan 10% gacha chegirma",
+      "shop": "Hozir xarid qiling"
+    }
+  },
+  "sec2": {
+    "today": "Bugungi",
+    "title": "Flash savdolari",
+    "timer": {
+      "days": "Kun",
+      "hours": "Soat",
+      "minutes": "Daqiqa",
+      "seconds": "Soniya"
+    },
+    "add_cart": "Savatchaga qo'shish",
+    "view_all": "Barcha mahsulotlarni ko'rish"
+  },
+  "sec3": {
+  "subtitle": "Bugungi",
+  "title": "Kategoriyalar bo'yicha ko'rish",
+  "categories": {
+    "phones": "Telefonlar",
+    "computers": "Kompyuterlar",
+    "smartwatch": "Smart soatlar",
+    "camera": "Kameralar",
+    "headphones": "Quloqchinlar",
+    "gaming": "O'yinlar"
+  }
+},
+"sec4": {
+  "subtitle": "Shu oyda",
+  "title": "Eng ko'p sotilgan mahsulotlar",
+  "view_all": "Hammasini ko'rish",
+  "add_cart": "Savatchaga qo'shish"
+},
+"sec5": {
+  "category": "Kategoriyalar",
+  "title": "Musiqa tajribangizni oshiring",
+  "buy_now": "Hozir xarid qiling!",
+  "timer": {
+    "days": "kun",
+    "hours": "soat",
+    "minutes": "daqiqa",
+    "seconds": "soniya"
+  }
+},
+"sec6": {
+  "subtitle": "Bizning mahsulotlar",
+  "title": "Mahsulotlarimizni o'rganing",
+  "add_cart": "Savatchaga qo'shish"
+},
+"sec7": {
+  "featured": "Tanlangan",
+  "new_arrival": "Yangi kelganlar",
+  "ps5_title": "Playstation 5",
+  "ps5_desc": "PS5-ning oq va qora versiyasi sotuvga chiqmoqda.",
+  "shop_now": "Hozir xarid qiling",
+  "delivery_title": "BEPUL VA TEZKOR YETKAZIB BERISH",
+  "delivery_desc": "140 dollardan yuqori barcha buyurtmalar uchun bepul yetkazib berish",
+  "support_title": "24/7 MIJOZLARGA XIZMAT",
+  "support_desc": "Mijozlar uchun kunu-tun qo'llab-quvvatlash",
+  "guarantee_title": "PUL QAYTARIB BERISH KAFOLATI",
+  "guarantee_desc": "Biz 30 kun ichida pulingizni qaytarib beramiz"
+},
+"notfound": {
+  "title": "404 Sahifa topilmadi",
+  "message": "Siz tashrif buyurgan sahifa topilmadi. Bosh sahifaga qaytishingiz mumkin.",
+  "back_home": "Bosh sahifaga qaytish"
+},
+"signup": {
+  "title": "Hisob yaratish",
+  "subtitle": "Ma'lumotlaringizni kiriting",
+  "name": "Ism",
+  "email_phone": "Email yoki telefon raqami",
+  "password": "Parol",
+  "create_btn": "Hisob yaratish",
+  "google_btn": "Google orqali kirish",
+  "already": "Hisobingiz bormi?",
+  "login": "Kirish"
+},
+  "contact": {
+    "call_title": "Bizga qo'ng'iroq qiling",
+    "call_desc": "Biz haftada 7 kun, 24 soat xizmatdamiz.",
+    "phone_num": "Telefon",
+    "write_title": "Bizga yozing",
+    "write_desc": "Formani to'ldiring va biz 24 soat ichida bog'lanamiz.",
+    "input_name": "Ismingiz*",
+    "input_email": "Emailingiz*",
+    "input_phone": "Telefoningiz*",
+    "input_message": "Xabaringiz*",
+    "send_btn": "Xabarni yuborish",
+    "success_msg": "Ma'lumotlar muvaffaqiyatli yuborildi ✅"
+  },
+  "profile": {
+  "manage_account": "Hisobni boshqarish",
+  "my_profile": "Mening profilim",
+  "address_book": "Manzillar kitobi",
+  "payment_options": "To'lov variantlari",
+  "my_orders": "Mening buyurtmalarim",
+  "my_returns": "Qaytarilgan mahsulotlar",
+  "my_cancellations": "Bekor qilinganlar",
+  "my_wishlist": "Saralanganlar",
+  "edit_title": "Profilni tahrirlash",
+  "first_name": "Ism",
+  "last_name": "Familiya",
+  "email": "Elektron pochta",
+  "address": "Manzil",
+  "pass_changes": "Parolni o'zgartirish",
+  "curr_pass": "Hozirgi parol",
+  "new_pass": "Yangi parol",
+  "conf_pass": "Yangi parolni tasdiqlash",
+  "cancel": "Bekor qilish",
+  "save": "O'zgarishlarni saqlash"
+},
+"cart": {
+  "empty": "Sizning savatingiz bo'sh",
+  "product": "Mahsulot",
+  "price": "Narxi",
+  "quantity": "Miqdori",
+  "subtotal": "Oraliq jami",
+  "return_shop": "Do'konga qaytish",
+  "update_cart": "Savatni yangilash",
+  "coupon_placeholder": "Kupon kodi",
+  "apply_coupon": "Kuponni qo'llash",
+  "cart_total": "Savat jami",
+  "shipping": "Yetkazib berish",
+  "free": "Bepul",
+  "total": "Jami",
+  "checkout_btn": "To'lovga o'tish"
+},
+  "product": {
+    "reviews": "ta sharh",
+    "in_stock": "Omborda bor",
+    "colours": "Ranglar:",
+    "size": "O'lcham:",
+    "buy_now": "Sotib olish",
+    "free_delivery": "Bepul yetkazib berish",
+    "delivery_sub": "Yetkazib berish mavjudligini tekshirish uchun pochta indeksini kiriting",
+    "return_delivery": "Qaytarish shartlari",
+    "return_sub": "30 kunlik bepul qaytarish imkoniyati. Batafsil",
+    "not_found": "Mahsulot topilmadi!"
+  }
+}

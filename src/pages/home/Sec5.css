@@ -1,0 +1,120 @@
+.Sec5{
+    padding: 50px 155px;
+}
+.speaker{
+    width: 1170px;
+    height: 500px;
+    display: flex;
+    background-color: #000000;
+}
+.speakertext{
+    padding: 69px 56px;
+}
+.speakertext p{
+    font-family: sans-serif;
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0%;
+    color: #00FF66;
+    padding-bottom: 32px;
+}
+.speakertext h1{
+    font-family: sans-serif;
+    font-weight: 600;
+    font-style: Semi Bold;
+    font-size: 48px;
+    line-height: 60px;
+    letter-spacing: 4%;
+    padding-bottom: 32px;
+    color: #FAFAFA;
+}
+.speakertext .sptime{
+    display: flex;
+    text-align: center;
+    gap: 24px;
+    padding-bottom: 40px;
+}
+.sptime span{
+    width: 62px;
+    height: 62px;
+    background-color: #ffffff;
+    align-items: center;
+    align-content: center;
+    border-radius: 50%;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 11px;
+    letter-spacing: 0%;
+}
+.sptime span h6{
+    font-family: sans-serif;
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 16px;
+    letter-spacing: 0%;
+}
+.speakertext .spbtn{
+    width: 171px;
+    height: 56px;
+    opacity: 1;
+    top: 375px;
+    left: 56px;
+    border-radius: 4px;
+    padding-top: 16px;
+    padding-right: 48px;
+    padding-bottom: 16px;
+    padding-left: 48px;
+    gap: 10px;
+    background-color: #00FF66;
+    color: white;
+    margin: 0;
+}
+.speakerimg{
+    padding-top: 40px;
+}
+
+@media (max-width: 1024px) {
+    .Sec5 {
+        padding: 40px 50px;
+    }
+    .speaker {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-width: 768px) {
+    .speaker {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+    .speakertext {
+        padding: 40px 20px;
+    }
+    .sptime {
+        justify-content: center;
+    }
+    .speakerimg img {
+        width: 100%;
+        max-width: 350px;
+    }
+}
+
+@media (max-width: 480px) {
+    .speakertext h1 {
+        font-size: 28px;
+        line-height: 36px;
+    }
+    .sptime span {
+        width: 50px;
+        height: 50px;
+        font-size: 9px;
+    }
+    .speakertext .spbtn {
+        width: 100%;
+    }
+}

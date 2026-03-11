@@ -1,0 +1,91 @@
+.icons5{
+    display: flex;
+    padding: 0 145px;
+    justify-content: space-between;
+    gap: 30px;
+}
+.gucci{
+    display:flex ;
+    gap: 30px;
+    padding-top: 28px;
+}
+.Sec8{
+    display: flex;
+    gap: 88px;
+    justify-content: center;
+    padding-top: 100px;
+}
+.servise8{
+    align-items: center;
+    text-align: center;
+    width: 249px;
+    height: 161px;
+    gap: 24px;
+}
+
+@media (max-width: 1024px) {
+    .icons5 {
+        padding: 0 40px; 
+    }
+
+    .lastsec {
+        display: flex;
+        flex-direction: column; 
+        align-items: center;
+        gap: 20px;
+    }
+
+    .Sec8 {
+        gap: 40px;
+        flex-wrap: wrap; 
+    }
+}
+
+@media (max-width: 768px) {
+    .icons5 {
+        padding: 0 20px;
+        flex-direction: column; 
+        align-items: flex-start;
+        gap: 15px;
+    }
+
+    .icons5 h1 {
+        font-size: 24px; 
+    }
+
+    .gucci {
+        flex-direction: column; 
+        width: 100%;
+    }
+
+    .gucci1 img, .gucci2 img, .playstation img {
+        width: 100%; 
+        height: auto;
+    }
+
+    .Sec8 {
+        flex-direction: column;
+        align-items: center;
+        padding-top: 50px;
+    }
+
+    .servise8 {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .time {
+        margin-left: 20px;
+    }
+    
+    .ps-info h2 {
+        font-size: 18px;
+    }
+    .playstation2{
+        display: none;
+    }
+    .playstation{
+        display: none;
+    }
+}

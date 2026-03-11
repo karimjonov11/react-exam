@@ -1,0 +1,143 @@
+.signup{
+    padding: 40px 0 100px 0;
+    display: flex;
+    color: #000000;
+}
+.signuptext{
+    align-content: center;
+    align-items: center;
+    width: 100%;
+    padding-left: 100px;
+}
+.signuptext h3{
+    font-family: Inter;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 36px;
+    line-height: 30px;
+    letter-spacing: 4%;
+    padding-bottom: 24px;
+}
+.signuptext p{
+    font-family: Poppins;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    padding-bottom: 50px;
+}
+.signuptext input{
+    background-color: white;
+    border: none;
+    border-bottom: 1px solid #7a7a7a;
+    margin-bottom: 30px;
+    padding-bottom: 8px;
+    width: 371px;
+    color: #FFFFFF;
+}
+.signuptext .btn1{
+    background-color:#DB4444;
+    width: 371px;
+    height: 56px;
+    gap: 10px;
+    border-radius: 4px;
+    padding-top: 16px;
+    padding-right: 122px;
+    padding-bottom: 16px;
+    padding-left: 122px;
+    border: none;
+    color: white;
+}
+.signuptext .btn2{
+    width: 371px;
+    height: 56px;
+    opacity: 1;
+    gap: 10px;
+    border-radius: 4px;
+    padding-top: 16px;
+    padding-right: 86px;
+    padding-bottom: 16px;
+    padding-left: 86px;
+    border-width: 1px;
+    align-content: center;
+    background-color: #FFFFFF;
+    border: 1px solid #00000066;
+    margin-top: 16px;
+    margin-bottom: 30px;
+}
+.signuptext .btn2 img{
+    position: absolute;
+    margin-left: -30px;
+}
+.signuptext small{
+    text-align: center;
+    font-family: Poppins;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    padding-left: 70px;
+}
+
+
+@media (max-width: 1024px) {
+    .signup {
+        padding: 20px;
+    }
+    .signuptext {
+        padding-left: 50px; 
+    }
+    .signupimg img{
+        width: 500px ;
+        height: 100vh;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .signup {
+        flex-direction: column; 
+        padding: 20px;
+        align-items: center;
+    }
+
+    .signupimg {
+        display: none; 
+    }
+
+    .signuptext {
+        padding-left: 0; 
+        text-align: center;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .signuptext input, 
+    .signuptext .btn1, 
+    .signuptext .btn2 {
+        width: 100%; 
+        max-width: 371px; 
+    }
+
+    .signuptext h3 {
+        font-size: 28px; 
+        margin-top: 20px;
+    }
+
+    .signuptext small {
+        padding-left: 0; 
+    }
+}
+
+@media (max-width: 480px) {
+    .signuptext .btn1, 
+    .signuptext .btn2 {
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 14px;
+    }
+}

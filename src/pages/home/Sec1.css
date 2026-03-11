@@ -1,0 +1,180 @@
+    .sec1{
+        display: flex;
+    }
+    .sec1 .sec1text{
+        border-right: 0.5px solid #cecdcd;
+        padding:40px 16px 40px 135px;
+    }
+
+    .sec1 p{
+        font-family: Poppins;
+        font-weight: 400;
+        font-style: Regular;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0%;
+        color: #000000;
+        padding-bottom: 16px;
+    }
+    .sec1 span{
+        margin-left: 50px;
+    }
+    .sec1 .p2{
+        margin-left: 74px;
+    }
+    .swiper-container{
+        padding: 40px 0 0 45px;
+    }
+    .swiper{
+        background-color: #000000;
+        width: 992px;
+        height: 344px;
+        border-radius: 10px;
+    }
+    .swiper2{
+    display: flex; 
+    width: 892px;
+    height: 344px;
+    }
+    .series{
+        display: flex;
+        align-items: center;
+        padding: 50px 0 0 70px;
+        gap: 20px;
+    }
+    .series img{
+        width: 40px;
+        height: 40px;
+    }
+    .swipertext{
+        width: 400px;
+        height: 300px;
+    }
+    .series h4{
+        font-family: Poppins;
+        font-weight: 400;
+        font-style: Regular;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0%;
+        text-align: center;
+        color: #FAFAFA;
+    }
+    .swiper2 h2{
+        font-family: Inter;
+        font-weight: 600;
+        font-style: Semi Bold;
+        font-size: 44px;
+        line-height: 60px;
+        letter-spacing: 2%;
+        padding: 20px 0 0 70px;
+        color: #FAFAFA;
+    }
+    .swiper2 h3{
+        font-family: Poppins;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0%;
+        color: #FFFFFF;
+        margin: 40px 0 0 70px;
+        border-bottom: 1px solid #FAFAFA;
+    }
+    .hdkkr{
+        display: flex;
+    }
+    .hdkkr span{
+        padding: 40px 0 0 0;
+        margin-left: 10px;
+        color: #ffffff;
+    }
+    .swiperimg img{
+        margin-top: 30px;
+        margin-left: 100px;
+        position: absolute;
+    }
+
+@media (max-width: 1024px) {
+    .sec1 .sec1text {
+        padding: 30px 16px 30px 40px;
+    }
+    .swiper-container {
+        padding-left: 20px;
+    }
+    .swiper {
+        width: 100%;
+        max-width: 700px;
+    }
+    .swiper2 {
+        width: 100%;
+    }
+    .swiperimg img {
+        margin-left: 20px;
+        width: 300px; 
+    }
+}
+
+@media (max-width: 768px) {
+    .sec1 {
+        flex-direction: column;
+    }
+    .sec1 .sec1text {
+        border-right: none;
+        padding: 20px;
+        display: flex;
+        overflow-x: auto;
+        gap: 20px;
+        white-space: nowrap;
+    }
+    .sec1 p {
+        padding-bottom: 0;
+    }
+    .sec1 span, .sec1 .p2 {
+        display: none; 
+    }
+    .swiper-container {
+        padding: 20px;
+    }
+    .swiper {
+        width: 100%;
+        height: auto;
+    }
+    .swiper2 {
+        flex-direction: column;
+        height: auto;
+        padding-bottom: 40px;
+    }
+    .swipertext {
+        width: 100%;
+        height: auto;
+    }
+    .swiperimg img {
+        margin-top: -200px;
+        margin-left: 400px;
+        width: 300px;
+        position: absolute;
+    }
+    .series, .swiper2 h2, .hdkkr h3 {
+        padding-left: 30px;
+    }
+}
+
+@media (max-width: 480px) {
+    .swiper2 h2 {
+        font-size: 28px;
+        line-height: 36px;
+        padding-left: 20px;
+    }
+    .series {
+        padding-left: 20px;
+        padding-top: 30px;
+    }
+    .hdkkr h3 {
+        margin-left: 20px;
+    }
+    .swiperimg img {
+        width: 230px;
+        margin-left: 220px;
+    }
+}
