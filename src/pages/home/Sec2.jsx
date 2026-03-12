@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { Phones } from '../../components/Phones';
 import './Sec2.css';
-import { useDispatch } from 'react-redux';
+import { useDispatch, useSelector } from 'react-redux'; // useSelector qo'shildi
 import { addtoCart, addtoWishlist } from '../../redux/shopSlice';
 import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
@@ -9,12 +9,12 @@ import { Link } from 'react-router-dom';
 const Sec2 = () => {
   const { t } = useTranslation(); 
   const dispatch = useDispatch();
+  
+  // Wishlist holatini tekshirish uchun
+  const wishlist = useSelector((state) => state.shop.wishlist);
 
   const [timeLeft, setTimeLeft] = useState({
-    days: 0,
-    hours: 0,
-    minutes: 0,
-    seconds: 0
+    days: 0, hours: 0, minutes: 0, seconds: 0
   });
 
   useEffect(() => {
@@ -27,7 +27,6 @@ const Sec2 = () => {
 
       if (t_diff <= 0) {
         clearInterval(interval);
-        setTimeLeft({ days: 0, hours: 0, minutes: 0, seconds: 0 });
         return;
       }
 
@@ -78,36 +77,45 @@ const Sec2 = () => {
           <div key={item.id} className="Card">
             <div className="addtocart">
               <div className="mapcon1">
-                <p>{item.discount}</p>
+                {item.discount && <p className="discount-badge">{item.discount}</p>}
                 <div className="mapicons">
                   <span onClick={() => dispatch(addtoWishlist(item))} >
-                    <item.icon1 className='redheart' />
+                    <item.icon1 
+                      className={`redheart ${wishlist.some(fav => fav.id === item.id) ? 'active' : ''}`} 
+                    />
                   </span>
-                  <Link className='see' to={`product/${item.id}`}>
-                    <item.icon2 className='redheart' />
+                  {/* '/product' oldiga / qo'shildi, shunda yo'l xato bo'lmaydi */}
+                  <Link className='see' to={`/product/${item.id}`}>
+                    <item.icon2 className='eye-icon' />
                   </Link>
                 </div>
               </div>
-              <img className='mapimg1' src={item.image} alt="" />
+              <img className='mapimg1' src={item.image} alt={item.model} />
             </div>
-            <h2 onClick={() => dispatch(addtoCart(item))} >{t('sec2.add_cart')}</h2>
+            <h2 className="add-btn" onClick={() => dispatch(addtoCart(item))} >{t('sec2.add_cart')}</h2>
             
-            <h3>{item.model}</h3>
-            <div className="mapmodels">
-              <h4>{item.price}</h4>
-              <h5>{item.del}</h5>
-            </div>
-            <div className="mapimgcon">
-              {[...Array(5)].map((_, i) => (
-                <img key={i} className='mapimg2' src={item.image2} alt="" />
-              ))}
-              <span>{item.color}</span>
+            <div className="card-info">
+              <h3>{item.model}</h3>
+              <div className="mapmodels">
+                <span className="price">{item.price}</span>
+                {item.del && <span className="old-price">{item.del}</span>}
+              </div>
+              <div className="mapimgcon">
+                <div className="stars">
+                  {[...Array(5)].map((_, i) => (
+                    <img key={i} className='mapimg2' src={item.image2} alt="star" />
+                  ))}
+                </div>
+                <span className="colors">({item.color})</span>
+              </div>
             </div>
           </div>
         ))}
       </div>
-      <button className='view_all_btn'>{t('sec2.view_all')}</button>
-      <hr />
+      <div className="btn-con">
+        <button className='view_all_btn'>{t('sec2.view_all')}</button>
+      </div>
+      <hr className="sec2-hr" />
     </section>
   );
 };
